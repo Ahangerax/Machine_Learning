@@ -1,0 +1,1 @@
+MathForML bridges the gap between theoretical machine learning mathematics and practical implementation. While libraries like NumPy and SciPy provide excellent general-purpose mathematical functions, this library offers ML-specific operations, abstractions, and optimizations that are commonly needed in machine learning workflows but not readily available in standard libraries.
