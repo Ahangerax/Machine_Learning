@@ -1,0 +1,121 @@
+{
+    "title": "Machine Learning Structured Syllabus",
+    "level": "Beginner to Intermediate",
+    "units": [
+        {
+            "unit": "Unit 0: Prerequisites & Mindset",
+            "topics": [
+                "What is data and types of data",
+                "Basic statistics intuition",
+                "Why ML depends on data quality",
+                "Python ecosystem overview"
+            ]
+        },
+        {
+            "unit": "Unit 1: Introduction to Machine Learning",
+            "topics": [
+                "Definition of Machine Learning",
+                "ML vs Traditional Programming",
+                "Applications of ML",
+                "Types of ML (Supervised, Unsupervised, Semi-supervised, Reinforcement)"
+            ]
+        },
+        {
+            "unit": "Unit 2: AI, ML, DL & Data Science",
+            "topics": [
+                "Artificial Intelligence",
+                "Machine Learning",
+                "Deep Learning",
+                "Generative AI",
+                "Data Science ecosystem"
+            ]
+        },
+        {
+            "unit": "Unit 3: Core ML Concepts",
+            "topics": [
+                "Algorithms",
+                "Features and labels",
+                "Training vs testing data",
+                "Overfitting and underfitting",
+                "Model lifecycle"
+            ]
+        },
+        {
+            "unit": "Unit 4: Data Preprocessing",
+            "topics": [
+                "Missing value handling",
+                "Outlier management",
+                "Feature scaling and normalization",
+                "Encoding categorical data",
+                "Data transformation"
+            ]
+        },
+        {
+            "unit": "Unit 5: Scikit-learn Basics",
+            "topics": [
+                "ML workflow in sklearn",
+                "Train-test split",
+                "Pipelines",
+                "Model fitting and prediction"
+            ]
+        },
+        {
+            "unit": "Unit 6: Regression Algorithms",
+            "topics": [
+                "Linear regression",
+                "Polynomial regression",
+                "Ridge and Lasso regression",
+                "Regression evaluation metrics"
+            ]
+        },
+        {
+            "unit": "Unit 7: Classification Algorithms",
+            "topics": [
+                "Logistic regression",
+                "KNN",
+                "SVM",
+                "Naive Bayes",
+                "Decision Trees",
+                "Random Forest",
+                "CatBoost"
+            ]
+        },
+        {
+            "unit": "Unit 8: Distance Metrics & Tree Concepts",
+            "topics": [
+                "Euclidean distance",
+                "Manhattan distance",
+                "Minkowski distance",
+                "Hamming distance",
+                "Entropy and Gini impurity"
+            ]
+        },
+        {
+            "unit": "Unit 9: Ensemble Learning",
+            "topics": [
+                "Bagging",
+                "Boosting",
+                "Random Forest",
+                "Boosting vs Neural Networks"
+            ]
+        },
+        {
+            "unit": "Unit 10: Model Evaluation & Improvement",
+            "topics": [
+                "Cross-validation",
+                "Hyperparameter tuning",
+                "Model comparison",
+                "Best model selection"
+            ]
+        },
+        {
+            "unit": "Unit 11: Automation & Practice",
+            "topics": [
+                "Kaggle workflow",
+                "End-to-end ML projects",
+                "PyCaret AutoML",
+                "PyCaret for regression and classification"
+            ]
+        }
+    ]
+}
