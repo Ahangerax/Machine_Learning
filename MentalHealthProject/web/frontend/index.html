@@ -1,0 +1,83 @@
+<!-- frontend/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Depression Prediction</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Student Depression Prediction</h1>
+
+    <form id="predictionForm">
+
+        <label>Age</label>
+        <input type="number" name="Age" required>
+
+        <label>Gender</label>
+        <select name="Choose your gender" required>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+
+        <label>Marital Status</label>
+        <select name="Marital status" required>
+            <option value="Single">Single</option>
+            <option value="Married">Married</option>
+        </select>
+
+        <label>Course</label>
+        <input type="text" name="What is your course?" required>
+
+        <label>Study Year</label>
+        <select name="Your current year of Study" required>
+            <option value="Year 1">Year 1</option>
+            <option value="Year 2">Year 2</option>
+            <option value="Year 3">Year 3</option>
+            <option value="Year 4">Year 4</option>
+        </select>
+
+        <label>CGPA</label>
+        <select name="What is your CGPA?" required>
+            <option value="0.00 - 1.99">0.00 - 1.99</option>
+            <option value="2.00 - 2.49">2.00 - 2.49</option>
+            <option value="2.50 - 2.99">2.50 - 2.99</option>
+            <option value="3.00 - 3.49">3.00 - 3.49</option>
+            <option value="3.50 - 4.00">3.50 - 4.00</option>
+        </select>
+
+        <label>Anxiety</label>
+        <select name="Do you have Anxiety?" required>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+
+        <label>Panic Attack</label>
+        <select name="Do you have Panic attack?" required>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+
+        <label>Sought Specialist Treatment</label>
+        <select name="Did you seek any specialist for a treatment?" required>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+
+        <button type="submit">Predict</button>
+
+    </form>
+
+    <div id="result"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
